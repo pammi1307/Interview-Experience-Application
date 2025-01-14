@@ -1,0 +1,155 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-image: -moz-element();
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2, h3, h4 {
+    color: #333;
+  }
+  
+  .error {
+    color: red;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Home Component */
+  .home {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Submissions List */
+  .submissions-list {
+    margin-top: 20px;
+  }
+
+  .submissions-list h2 {
+    color: cyan;
+  }
+  
+  .submission-card {
+    background-color: #f0f8ff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .submission-card h3 {
+    margin: 0;
+    color: #0056b3;
+  }
+  
+  .submission-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .submission-card .questions ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  .submission-card .questions ul li {
+    list-style-type: disc;
+    color: #333;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pagination .btn:disabled {
+    background-color: #b0d4ff;
+    cursor: not-allowed;
+  }
+  
+  .pagination .btn:not(:disabled):hover {
+    background-color: #0056b3;
+  }
+  
+  .pagination span {
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Submission Form */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form button {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #218838;
+  }
+
+  .questions {
+    margin-top: 15px;
+  }
+  
+  .questions h4 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .questions ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Align the text with the container */
+  }
+  
+  .questions ul li {
+    margin-bottom: 10px; /* Add spacing between lines */
+    padding: 10px;
+    background-color: #f0f8ff;
+    border-left: 4px solid #007bff;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+  }
+  
+  .questions ul li p {
+    margin: 0; /* Remove default paragraph margin */
+  }
+  
+  

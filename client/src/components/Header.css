@@ -1,0 +1,64 @@
+/* General header styling */
+.header {
+    background-color: #007bff; /* Header background color */
+    color: #fff; /* Default text color in the header */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(19, 22, 202, 0.1); /* Adds a shadow to the header */
+  }
+  
+  /* Logo styling */
+  .logo a {
+    color: #fff; /* Logo link color */
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation links styling */
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline;
+  }
+  
+  ul li a {
+    color: #fff; /* Link text color */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline; 
+    color: yellow;
+  }
+
+  .logo a:hover {
+    text-decoration: underline; 
+    color: yellow;
+  }
+  
+  /* Button styling */
+  .btn {
+    background-color: #ff4757; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .btn:hover {
+    background-color: #e84118; /* Button hover color */
+  }
+  
